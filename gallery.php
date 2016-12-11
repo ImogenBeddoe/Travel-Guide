@@ -1,9 +1,9 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['user'])) 
+    if(empty($_SESSION['user']))
     {
         header("Location: index.php");
-        die("Redirecting to index.php"); 
+        die("Redirecting to index.php");
     }
 ?>
 <!DOCTYPE html>
@@ -228,7 +228,7 @@
                             </div>
                         </div>
                     </a>
-                
+
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/Gallery13.png" class="portfolio-box">

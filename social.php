@@ -1,9 +1,9 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['user'])) 
+    if(empty($_SESSION['user']))
     {
         header("Location: index.php");
-        die("Redirecting to index.php"); 
+        die("Redirecting to index.php");
     }
 ?>
 <!DOCTYPE html>
@@ -98,6 +98,7 @@
             <h2>SPOTIFY</h2>
           </br>
 
+          <!-- I embedded the spotify, twitter and instagram links beneath in iframes--> 
             <div class="row">
                 <div class="col-md-4">
                 <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A116515296%3Aplaylist%3A75iMZU7f2oppi1VkfjWoRF" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></h2>

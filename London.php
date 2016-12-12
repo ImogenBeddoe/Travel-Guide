@@ -1,9 +1,9 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['user'])) 
+    if(empty($_SESSION['user']))
     {
         header("Location: index.php");
-        die("Redirecting to index.php"); 
+        die("Redirecting to index.php");
     }
 ?>
 <!DOCTYPE html>
@@ -54,6 +54,7 @@
               <a class="navbar-brand topnav" href="home.php">TRAVEL GUIDE</a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
+          <!-- The div beneath is for all the links to the other pages. This is shown on every page on The Travel Guide -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                   <li>
@@ -98,6 +99,7 @@
 
 <div class="row" style="margin-top:20px; background-color:#E7E7E7">
   <div style="padding:3px;">
+    <!-- the padding is the space around the text box, in my case it is in the colour grey-->
   <p>London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>
 </div>
 </div>
@@ -109,6 +111,7 @@
 </header>
 </div>
 </div>
+<!-- the margin and margin-bottom 20px is the space between the div and the things above and bellow-->
 <div style="margin-top:20px;margin-bottom:20px">
   <div class="container">
 <header class="image-bg-fluid-height" >

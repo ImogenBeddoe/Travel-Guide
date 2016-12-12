@@ -90,6 +90,7 @@
     </div>
 <div style="margin-top:20px"></div>
 
+<!-- Here's the code for the gallery-->
 <div class="container">
   <section class="no-padding" id="portfolio">
         <div class="container-fluid">
@@ -104,6 +105,7 @@
                                 </div>
                                 <div class="project-name">
                                     Tell The Hoi @ The Nest
+                                    <!-- The two div class's above provide the text which goes over the images in the gallery-->
                                 </div>
                             </div>
                         </div>

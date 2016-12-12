@@ -1,9 +1,9 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['user'])) 
+    if(empty($_SESSION['user']))
     {
         header("Location: index.php");
-        die("Redirecting to index.php"); 
+        die("Redirecting to index.php");
     }
 ?>
 <!DOCTYPE html>
@@ -92,7 +92,7 @@
 
     <iframe src="assets/Bath magazine.pdf" width="700px" height="500px" ></iframe>
     </div>
-    
+    <!-- The div above allows for a pdf to be uploaded to the website-->
 
     <a  name="contact"></a>
       <div class="banner">

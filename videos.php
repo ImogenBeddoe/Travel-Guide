@@ -1,9 +1,9 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['user'])) 
+    if(empty($_SESSION['user']))
     {
         header("Location: index.php");
-        die("Redirecting to index.php"); 
+        die("Redirecting to index.php");
     }
 ?>
 <!DOCTYPE html>
@@ -94,7 +94,9 @@
         <div class="row">
             <div class="col-md-4">
             <iframe width="350" height="200" src="https://www.youtube.com/embed/407OguH2klM" frameborder="0" allowfullscreen></iframe>
+            <!-- the iframes links to the url of the videos shown on the page-->
           <h3 style="text-align:center">VENICE, ITALY</h3>
+          <!-- the h3 style is for the text beneath the video to say which place the video is about-->
             </div>
             <div class="col-md-4">
                 <iframe width="350" height="200" src="https://www.youtube.com/embed/Rja1qjvdR_Q" frameborder="0" allowfullscreen></iframe>

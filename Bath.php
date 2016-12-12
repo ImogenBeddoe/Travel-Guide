@@ -1,9 +1,9 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['user'])) 
+    if(empty($_SESSION['user']))
     {
         header("Location: index.php");
-        die("Redirecting to index.php"); 
+        die("Redirecting to index.php");
     }
 ?>
 
@@ -82,6 +82,7 @@
       <!-- /.container -->
   </nav>
 </nav>
+<!-- The div tag beaneath is the banner which says the name of the location or on other pages the name of the page -->
 <div class="banner" style="margin-top:30px;">
   <div class="container-fluid">
    <h1 style="text-align:center;">BATH</h1>
@@ -137,11 +138,11 @@ The night life in bath is very broad theres nightclubs such as moles famously kn
 
 
 <div class="row"style="margin-top:20px;">
-	
+
   		<img class = "img-responsive img-center" src = "img/nest1.jpg"/>
  </div>
-  		
-<div class="row"style="margin-top:20px;">	
+
+<div class="row"style="margin-top:20px;">
     <div class="col-md-6">
   		<img class = "img-responsive img-center" src = "img/nest4.jpg"/>
       </div>
@@ -171,13 +172,13 @@ The night life in bath is very broad theres nightclubs such as moles famously kn
       <h5> Casa iguanas is the cocktail bar for the restaurant company las iguanas. the bar is located in the city center of bath, just off kingsmead square. Customers sometimes pop downstairs to the bar after having a meal up stairs at las iguanas. The bar is Brazilian themed. The bar is popular with parties with its 2for1 on happy hour cocktails and coolers all day every day. On a Friday and Saturday night there are djs which is perfect if you want Brazilian themed cocktails and have a dance.  </h5>
       </div>
       </div>
-   
+
 <div class="row"style="margin-top:20px;">
 
   <img class = "img-responsive img-center" src = "img/11919141_767953886647592_3133861914710139272_o (1).jpg"/>
 
 </div>
-
+<!-- col-md-8 and col-md-4 create two collums-->
    <div class="row" style="margin-top:20px;background-color:#E7E7E7;">
      <div class="col-md-4" style="text-align:center;" >
       <h4>Alexandra park, Bath</h4>
@@ -189,13 +190,13 @@ The night life in bath is very broad theres nightclubs such as moles famously kn
      </div>
 </div>
 
- 
+
 
   <img class = "img-responsive img-center" style="margin-top:20px" src = "img/4262206789_82cab7cd47_b.jpg"/>
 
 
 <div class="row" style="margin-top:20px;margin-bottom:20px; background-color:#EAEAEA">
-  
+
   <h4>Credits</h4>
   <p>
 Anon. (2015) Casa Iguanas [online] available from <https://www.facebook.com/CasaIguanasBar/photos/a.265358330240486.54671.265096606933325/767953886647592/?type=1&theater> [22 November 2016]
@@ -220,6 +221,7 @@ Tell The Hoi (2016) Tell The Hoi Photos [online] available from <https://www.fac
               <div class="col-lg-6">
                   <ul class="list-inline banner-social-buttons">
                       <li>
+                        <!-- a href is for hyperlinks -->
                           <a href="https://twitter.com/Travel_208_MC" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                       </li>
                       <li>
